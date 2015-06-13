@@ -1,6 +1,6 @@
 import expect from 'expect';
-import { bindActionCreators, createRedux } from '../src';
-import * as helpers from './_helpers';
+import { bindActionCreators, createRedux } from '../../src';
+import * as helpers from '../_helpers';
 
 const { todoActions, todoStore } = helpers;
 
